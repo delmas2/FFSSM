@@ -4,9 +4,14 @@
 
 package FFSSM;
 
+
+import java.util.ArrayList;
+
 public class Site
 {
 	public String nom;
+	private String details;
+	private ArrayList<Plongee> plongees;
 
 	public Site(String nom, String details) {
 		this.nom = nom;
@@ -20,8 +25,6 @@ public class Site
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
-	
-		private String details;
 
 	/**
 	 * Get the value of details
